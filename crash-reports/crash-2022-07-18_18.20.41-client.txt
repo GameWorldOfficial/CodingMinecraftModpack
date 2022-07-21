@@ -1,0 +1,188 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  TransformerLoader (OpenComputers-MC1.12.2-1.7.5.192.jar)
+  MekanismCoremod (Mekanism-1.12.2-9.8.3.390.jar)
+  XaeroWorldMapPlugin (XaerosWorldMap_1.25.1_Forge_1.12.jar)
+  MicdoodlePlugin (MicdoodleCore-1.12.2-4.0.2.280.jar)
+  Quark Plugin (Quark-r1.6-179.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  GSHooksLoader (GalaxySpace-1.12.2-2.0.19.jar)
+  XaeroMinimapPlugin (Xaeros_Minimap_22.10.0_Forge_1.12.jar)
+Contact their authors BEFORE contacting forge
+
+// Surprise! Haha. Well, this is awkward.
+
+Time: 7/18/22 6:20 PM
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from GalaxySpace (galaxyspace)
+Caused by: java.lang.NoSuchMethodError: micdoodle8.mods.galacticraft.api.galaxies.CelestialBody.atmosphereComponents([Lmicdoodle8/mods/galacticraft/api/world/EnumAtmosphericGas;)Lmicdoodle8/mods/galacticraft/api/galaxies/CelestialBody;
+	at galaxyspace.systems.ACentauriSystem.ACentauriSystemBodies.preInit(ACentauriSystemBodies.java:84)
+	at galaxyspace.GalaxySpace.preInit(GalaxySpace.java:169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1605679504 bytes (1531 MB) / 3037724672 bytes (2897 MB) up to 9544663040 bytes (9102 MB)
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx10240m -Xms256m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 71 mods loaded, 71 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                        | Version           | Source                                            | Signature                                |
+	|:----- |:------------------------- |:----------------- |:------------------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft                 | 1.12.2            | minecraft.jar                                     | None                                     |
+	| LCH   | mcp                       | 9.42              | minecraft.jar                                     | None                                     |
+	| LCH   | FML                       | 8.0.99.99         | forge-1.12.2-14.23.5.2860.jar                     | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | forge                     | 14.23.5.2860      | forge-1.12.2-14.23.5.2860.jar                     | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | micdoodlecore             |                   | minecraft.jar                                     | None                                     |
+	| LCH   | xaerominimap_core         | 1.12.2-1.0        | minecraft.jar                                     | None                                     |
+	| LCH   | xaeroworldmap_core        | 1.12.2-1.0        | minecraft.jar                                     | None                                     |
+	| LCH   | opencomputers|core        | 1.7.5.192         | minecraft.jar                                     | None                                     |
+	| LCH   | galacticraftcore          | 4.0.2.280         | GalacticraftCore-1.12.2-4.0.2.280.jar             | None                                     |
+	| LCH   | galacticraftplanets       | 4.0.2.280         | Galacticraft-Planets-1.12.2-4.0.2.280.jar         | None                                     |
+	| LCH   | crafttweaker              | 4.1.20            | CraftTweaker2-1.12-4.1.20.675.jar                 | None                                     |
+	| LCH   | mjrlegendslib             | 1.12.2-1.2.1      | MJRLegendsLib-1.12.2-1.2.1.jar                    | b02331787272ec3515ebe63ecdeea0d746653468 |
+	| LCH   | zollerngalaxy             | 2.0.44            | ZollernGalaxy-1.12.2-2.0.44.jar                   | None                                     |
+	| LCH   | extraplanets              | 1.12.2-0.7.4      | ExtraPlanets-1.12.2-0.7.4.jar                     | b02331787272ec3515ebe63ecdeea0d746653468 |
+	| LCH   | planetprogression         | 1.12.2-0.4.6      | PlanetProgression-1.12.2-0.4.6.jar                | b02331787272ec3515ebe63ecdeea0d746653468 |
+	| LCH   | asmodeuscore              | 0.0.30            | AsmodeusCore-1.12.2-0.0.31.jar                    | None                                     |
+	| LCH   | attributefix              | 1.0.4             | AttributeFix-1.12.2-1.0.4.jar                     | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCH   | jei                       | 4.16.1.301        | jei_1.12.2-4.16.1.301.jar                         | None                                     |
+	| LCH   | quark                     | r1.6-179          | Quark-r1.6-179.jar                                | None                                     |
+	| LCH   | autoreglib                | 1.3-32            | AutoRegLib-1.3-32.jar                             | None                                     |
+	| LCH   | bibliocraft               | 2.4.6             | BiblioCraft[v2.4.6][MC1.12.2].jar                 | None                                     |
+	| LCH   | codechickenlib            | 3.2.3.358         | CodeChickenLib-1.12.2-3.2.3.358-universal.jar     | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | redstoneflux              | 2.1.1             | RedstoneFlux-1.12-2.1.1.1-universal.jar           | None                                     |
+	| LCH   | brandonscore              | 2.4.20            | BrandonsCore-1.12.2-2.4.20.162-universal.jar      | None                                     |
+	| LCH   | carryon                   | 1.12.3            | carryon-1.12.2-1.12.6.20.jar                      | fd21553434f4905f2f73ea7838147ac4ea07bd88 |
+	| LCH   | cctweaked                 | 1.89.2            | cc-tweaked-1.12.2-1.89.2.jar                      | None                                     |
+	| LCH   | computercraft             | 1.89.2            | cc-tweaked-1.12.2-1.89.2.jar                      | None                                     |
+	| LCH   | cofhcore                  | 4.6.6             | CoFHCore-1.12.2-4.6.6.1-universal.jar             | None                                     |
+	| LCH   | cofhworld                 | 1.4.0             | CoFHWorld-1.12.2-1.4.0.1-universal.jar            | None                                     |
+	| LCH   | asielib                   | 1.0.0             | Computronics-1.12.2-1.6.6.jar                     | None                                     |
+	| LCH   | opencomputers             | 1.7.5.192         | OpenComputers-MC1.12.2-1.7.5.192.jar              | None                                     |
+	| LCH   | computronics              | 1.6.6             | Computronics-1.12.2-1.6.6.jar                     | None                                     |
+	| LCH   | controlling               | 3.0.10            | Controlling-3.0.10.jar                            | None                                     |
+	| LCH   | ctgui                     | 1.0.0             | CraftTweaker2-1.12-4.1.20.675.jar                 | None                                     |
+	| LCH   | crafttweakerjei           | 2.0.3             | CraftTweaker2-1.12-4.1.20.675.jar                 | None                                     |
+	| LCH   | ctm                       | MC1.12.2-1.0.2.31 | CTM-MC1.12.2-1.0.2.31.jar                         | None                                     |
+	| LCH   | elevatorid                | 1.3.14            | ElevatorMod-1.12.2-1.3.14.jar                     | None                                     |
+	| LCH   | zerocore                  | 1.12.2-0.1.2.9    | zerocore-1.12.2-0.1.2.9.jar                       | None                                     |
+	| LCH   | bigreactors               | 1.12.2-0.4.5.68   | ExtremeReactors-1.12.2-0.4.5.68.jar               | None                                     |
+	| LCH   | forgemultipartcbe         | 2.6.2.83          | ForgeMultipart-1.12.2-2.6.2.83-universal.jar      | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | microblockcbe             | 2.6.2.83          | ForgeMultipart-1.12.2-2.6.2.83-universal.jar      | None                                     |
+	| LCH   | minecraftmultipartcbe     | 2.6.2.83          | ForgeMultipart-1.12.2-2.6.2.83-universal.jar      | None                                     |
+	| LCH   | cfm                       | 6.3.0             | furniture-6.3.2-1.12.2.jar                        | None                                     |
+	| LCE   | galaxyspace               | 2.0.19            | GalaxySpace-1.12.2-2.0.19.jar                     | None                                     |
+	| LC    | galacticcomputers         | 1.0.0             | GalacticComputers-1.0.0.jar                       | None                                     |
+	| LC    | gc-rpc                    | 2.2.0             | galacticraft-rpc-2.2.0.jar                        | None                                     |
+	| LC    | galacticrafttweaker       | 1.12.2-1.0.3      | GalacticraftTweaker-1.12.2-1.0.3.jar              | b02331787272ec3515ebe63ecdeea0d746653468 |
+	| LC    | ironchest                 | 1.12.2-7.0.67.844 | ironchest-1.12.2-7.0.72.847.jar                   | None                                     |
+	| LC    | mekanism                  | 1.12.2-9.8.3.390  | Mekanism-1.12.2-9.8.3.390.jar                     | None                                     |
+	| LC    | mrtjpcore                 | 2.1.4.43          | MrTJPCore-1.12.2-2.1.4.43-universal.jar           | None                                     |
+	| LC    | netherportalfix           | 5.3.17            | NetherPortalFix_1.12.1-5.3.17.jar                 | None                                     |
+	| LC    | patchouli                 | 1.0-23.6          | Patchouli-1.0-23.6.jar                            | None                                     |
+	| LC    | projectintelligence       | 1.0.9             | ProjectIntelligence-1.12.2-1.0.9.28-universal.jar | None                                     |
+	| LC    | projectred-core           | 4.9.4.120         | ProjectRed-1.12.2-4.9.4.120-Base.jar              | None                                     |
+	| LC    | projectred-compat         | 1.0               | ProjectRed-1.12.2-4.9.4.120-compat.jar            | None                                     |
+	| LC    | projectred-integration    | 4.9.4.120         | ProjectRed-1.12.2-4.9.4.120-integration.jar       | None                                     |
+	| LC    | projectred-transmission   | 4.9.4.120         | ProjectRed-1.12.2-4.9.4.120-integration.jar       | None                                     |
+	| LC    | projectred-fabrication    | 4.9.4.120         | ProjectRed-1.12.2-4.9.4.120-fabrication.jar       | None                                     |
+	| LC    | projectred-illumination   | 4.9.4.120         | ProjectRed-1.12.2-4.9.4.120-lighting.jar          | None                                     |
+	| LC    | projectred-expansion      | 4.9.4.120         | ProjectRed-1.12.2-4.9.4.120-mechanical.jar        | None                                     |
+	| LC    | projectred-relocation     | 4.9.4.120         | ProjectRed-1.12.2-4.9.4.120-mechanical.jar        | None                                     |
+	| LC    | projectred-transportation | 4.9.4.120         | ProjectRed-1.12.2-4.9.4.120-mechanical.jar        | None                                     |
+	| LC    | projectred-exploration    | 4.9.4.120         | ProjectRed-1.12.2-4.9.4.120-world.jar             | None                                     |
+	| LC    | spaceambient              | 0.0.1             | SpaceAmbient-1.12.2-0.0.1.jar                     | None                                     |
+	| LC    | stg                       | 1.12.2-1.2.3      | stg-1.12.2-1.2.3.jar                              | None                                     |
+	| LC    | thermalfoundation         | 2.6.7             | ThermalFoundation-1.12.2-2.6.7.1-universal.jar    | None                                     |
+	| LC    | thermalexpansion          | 5.5.7             | ThermalExpansion-1.12.2-5.5.7.1-universal.jar     | None                                     |
+	| LC    | thermaldynamics           | 2.5.6             | ThermalDynamics-1.12.2-2.5.6.1-universal.jar      | None                                     |
+	| LC    | torchmaster               | 1.8.5.0           | torchmaster_1.12.2-1.8.5.0.jar                    | None                                     |
+	| LC    | xaerominimap              | 22.10.0           | Xaeros_Minimap_22.10.0_Forge_1.12.jar             | None                                     |
+	| LC    | xaeroworldmap             | 1.25.1            | XaerosWorldMap_1.25.1_Forge_1.12.jar              | None                                     |
+
+	Loaded coremods (and transformers): 
+TransformerLoader (OpenComputers-MC1.12.2-1.7.5.192.jar)
+  li.cil.oc.common.asm.ClassTransformer
+MekanismCoremod (Mekanism-1.12.2-9.8.3.390.jar)
+  mekanism.coremod.KeybindingMigrationHelper
+XaeroWorldMapPlugin (XaerosWorldMap_1.25.1_Forge_1.12.jar)
+  xaero.map.core.transformer.ChunkTransformer
+  xaero.map.core.transformer.NetHandlerPlayClientTransformer
+  xaero.map.core.transformer.EntityPlayerTransformer
+  xaero.map.core.transformer.AbstractClientPlayerTransformer
+  xaero.map.core.transformer.WorldClientTransformer
+  xaero.map.core.transformer.PlayerListTransformer
+  xaero.map.core.transformer.SaveFormatTransformer
+  xaero.map.core.transformer.BiomeColorHelperTransformer
+MicdoodlePlugin (MicdoodleCore-1.12.2-4.0.2.280.jar)
+  micdoodle8.mods.miccore.MicdoodleTransformer
+Quark Plugin (Quark-r1.6-179.jar)
+  vazkii.quark.base.asm.ClassTransformer
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+GSHooksLoader (GalaxySpace-1.12.2-2.0.19.jar)
+  galaxyspace.core.hooklib.minecraft.PrimaryClassTransformer
+XaeroMinimapPlugin (Xaeros_Minimap_22.10.0_Forge_1.12.jar)
+  xaero.common.core.transformer.ChunkTransformer
+  xaero.common.core.transformer.NetHandlerPlayClientTransformer
+  xaero.common.core.transformer.EntityPlayerTransformer
+  xaero.common.core.transformer.AbstractClientPlayerTransformer
+  xaero.common.core.transformer.WorldClientTransformer
+  xaero.common.core.transformer.EntityPlayerSPTransformer
+  xaero.common.core.transformer.PlayerListTransformer
+  xaero.common.core.transformer.SaveFormatTransformer
+  xaero.common.core.transformer.GuiIngameForgeTransformer
+  xaero.common.core.transformer.GuiBossOverlayTransformer
+  xaero.common.core.transformer.ModelRendererTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 516.40' Renderer: 'NVIDIA GeForce RTX 3070/PCIe/SSE2'

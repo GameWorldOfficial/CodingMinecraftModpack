@@ -1,0 +1,67 @@
+[
+  {
+    "page_uri": "galacticraftcore:vehicles",
+    "translation": "Vehicles",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "galacticraftcore:earth",
+    "translation": "Earth",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "galacticraftcore:destinations/mars",
+    "translation": "Mars",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "galacticraftcore:vehicles/rocket",
+    "translation": "Rocket",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "galacticraftcore:destinations/earth_space_station",
+    "translation": "Earth Space Station",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "galacticraftcore:destinations/asteriods",
+    "translation": "Asteriods",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "galacticraftcore:statistics",
+    "translation": "Statistics",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "galacticraftcore:",
+    "translation": "Galacticraft",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "galacticraftcore:destinations",
+    "translation": "Destinations",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "galacticraftcore:destinations/moon",
+    "translation": "Moon",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "galacticraftcore:destinations/venus",
+    "translation": "Venus",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "galacticraftcore:vehicles/moon_buggy",
+    "translation": "Moon Buggy",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "galacticraftcore:destinations/earth",
+    "translation": "Earth",
+    "page_rev": 0
+  }
+]

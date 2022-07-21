@@ -1,0 +1,80 @@
+{
+  "mod_id": "galacticraftcore",
+  "mod_version": "4.0.2.280",
+  "__verified_comment": "Do not change this to true. If you do so your PR will be automatically rejected.",
+  "verified": false,
+  "file": "galacticraftcore_c4053.md",
+  "cycle_icons": false,
+  "pages": [
+    {
+      "id": "statistics",
+      "file": "statistics_5a224.md",
+      "cycle_icons": false,
+      "hidden": false
+    },
+    {
+      "id": "destinations",
+      "file": "destinations_dde89.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "pages": [
+        {
+          "id": "earth",
+          "file": "destinations/earth_c2654.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "earth_space_station",
+          "file": "destinations/earth_space_station_4c22b.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "moon",
+          "file": "destinations/moon_cc284.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "mars",
+          "file": "destinations/mars_cd45d.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "venus",
+          "file": "destinations/venus_fe984.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "asteriods",
+          "file": "destinations/asteriods_73794.md",
+          "cycle_icons": false,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "vehicles",
+      "file": "vehicles_c39ee.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "pages": [
+        {
+          "id": "rocket",
+          "file": "vehicles/rocket_aa5c2.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "moon_buggy",
+          "file": "vehicles/moon_buggy_a925e.md",
+          "cycle_icons": false,
+          "hidden": false
+        }
+      ]
+    }
+  ]
+}

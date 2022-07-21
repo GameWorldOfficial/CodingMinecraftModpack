@@ -1,0 +1,462 @@
+[
+  {
+    "page_uri": "cctweaked:events/paste",
+    "translation": "paste",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:generic_peripherals",
+    "translation": "Generic Peripherals",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:reference/lua_5.2/5.3_features_in_cc:_tweaked",
+    "translation": "Lua 5.2/5.3 features in CC: Tweaked",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events",
+    "translation": "Events",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:generic_peripherals/energy_storage",
+    "translation": "energy_storage",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/fs",
+    "translation": "fs",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/alarm",
+    "translation": "alarm",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:guides/allowing_access_to_local_ips",
+    "translation": "Allowing access to local IPs",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/help",
+    "translation": "help",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/window",
+    "translation": "window",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/websocket_closed",
+    "translation": "websocket_closed",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/monitor_touch",
+    "translation": "monitor_touch",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/monitor_resize",
+    "translation": "monitor_resize",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/peripheral_detach",
+    "translation": "peripheral_detach",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/-g/colors",
+    "translation": "colors",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/mouse_scroll",
+    "translation": "mouse_scroll",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:peripherals/monitor",
+    "translation": "monitor",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:peripherals/speaker",
+    "translation": "speaker",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:guides/playing_audio_with_speakers",
+    "translation": "Playing audio with speakers",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:cctweaked_home",
+    "translation": "home",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:modules",
+    "translation": "Modules",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:modules/cc.completion",
+    "translation": "cc.completion",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:",
+    "translation": "CC: Tweaked",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/redstone",
+    "translation": "redstone",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/http_success",
+    "translation": "http_success",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/http_failure",
+    "translation": "http_failure",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/io",
+    "translation": "io",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/websocket_message",
+    "translation": "websocket_message",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/disk",
+    "translation": "disk",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:peripherals",
+    "translation": "Peripherals",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:generic_peripherals/fluid_storage",
+    "translation": "fluid_storage",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/modem_message",
+    "translation": "modem_message",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/pocket",
+    "translation": "pocket",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:generic_peripherals/inventory",
+    "translation": "inventory",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:guides",
+    "translation": "Guides",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/-g/sleep",
+    "translation": "sleep",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/key_up",
+    "translation": "key_up",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:peripherals/command",
+    "translation": "command",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/paintutils",
+    "translation": "paintutils",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/disk_eject",
+    "translation": "disk_eject",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/computer_command",
+    "translation": "computer_command",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/parallel",
+    "translation": "parallel",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:peripherals/drive",
+    "translation": "drive",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:peripherals/printer",
+    "translation": "printer",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/colours",
+    "translation": "colours",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:modules/cc.require",
+    "translation": "cc.require",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/mouse_drag",
+    "translation": "mouse_drag",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals",
+    "translation": "Globals",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/keys",
+    "translation": "keys",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:modules/cc.image.nft",
+    "translation": "cc.image.nft",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:guides/reusing_code_with_require",
+    "translation": "Reusing code with require",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/peripheral",
+    "translation": "peripheral",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/terminate",
+    "translation": "terminate",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/textutils",
+    "translation": "textutils",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/term_resize",
+    "translation": "term_resize",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/vector",
+    "translation": "vector",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/http",
+    "translation": "http",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/rednet",
+    "translation": "rednet",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/redstone",
+    "translation": "redstone",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/colors",
+    "translation": "colors",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:peripherals/modem",
+    "translation": "modem",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/multishell",
+    "translation": "multishell",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/mouse_click",
+    "translation": "mouse_click",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/disk",
+    "translation": "disk",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/speaker_audio_empty",
+    "translation": "speaker_audio_empty",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:reference",
+    "translation": "Reference",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/key",
+    "translation": "key",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:modules/cc.shell.completion",
+    "translation": "cc.shell.completion",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/os",
+    "translation": "os",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/char",
+    "translation": "char",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/peripheral",
+    "translation": "peripheral",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/settings",
+    "translation": "settings",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/turtle_inventory",
+    "translation": "turtle_inventory",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:peripherals/computer",
+    "translation": "computer",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/shell",
+    "translation": "shell",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:guides/setting_up_gps",
+    "translation": "Setting up GPS",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/term",
+    "translation": "term",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/websocket_failure",
+    "translation": "websocket_failure",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/timer",
+    "translation": "timer",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/rednet_message",
+    "translation": "rednet_message",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/turtle",
+    "translation": "turtle",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:modules/cc.pretty",
+    "translation": "cc.pretty",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:modules/cc.audio.dfpwm",
+    "translation": "cc.audio.dfpwm",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:modules/cc.strings",
+    "translation": "cc.strings",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/-g",
+    "translation": "_G",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/commands",
+    "translation": "commands",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/http_check",
+    "translation": "http_check",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/websocket_success",
+    "translation": "websocket_success",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/task_complete",
+    "translation": "task_complete",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:globals/gps",
+    "translation": "gps",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:events/mouse_up",
+    "translation": "mouse_up",
+    "page_rev": 0
+  },
+  {
+    "page_uri": "cctweaked:modules/cc.expect",
+    "translation": "cc.expect",
+    "page_rev": 0
+  }
+]

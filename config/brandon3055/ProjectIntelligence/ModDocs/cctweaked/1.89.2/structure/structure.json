@@ -1,0 +1,552 @@
+{
+  "mod_id": "cctweaked",
+  "mod_version": "1.89.2",
+  "__verified_comment": "Do not change this to true. If you do so your PR will be automatically rejected.",
+  "verified": false,
+  "file": "cctweaked_6e54d.md",
+  "cycle_icons": false,
+  "pages": [
+    {
+      "id": "globals",
+      "file": "globals_2fc6a.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "pages": [
+        {
+          "id": "-g",
+          "file": "globals/-g_3ced1.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "colors",
+          "file": "globals/colors_fc69b.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "colours",
+          "file": "globals/colours_5b74b.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "commands",
+          "file": "globals/commands_9f000.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "disk",
+          "file": "globals/disk_7ba88.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "fs",
+          "file": "globals/fs_36b02.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "gps",
+          "file": "globals/gps_52460.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "help",
+          "file": "globals/help_380ac.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "http",
+          "file": "globals/http_fbef1.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "io",
+          "file": "globals/io_b41e0.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "keys",
+          "file": "globals/keys_8136b.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "multishell",
+          "file": "globals/multishell_fedaa.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "os",
+          "file": "globals/os_6a8d9.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "paintutils",
+          "file": "globals/paintutils_7fcf7.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "parallel",
+          "file": "globals/parallel_7fe86.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "peripheral",
+          "file": "globals/peripheral_b1343.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "pocket",
+          "file": "globals/pocket_9226f.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "rednet",
+          "file": "globals/rednet_c0e3f.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "redstone",
+          "file": "globals/redstone_5e09c.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "settings",
+          "file": "globals/settings_f764b.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "shell",
+          "file": "globals/shell_c9b72.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "term",
+          "file": "globals/term_9ee73.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "textutils",
+          "file": "globals/textutils_da3b7.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "turtle",
+          "file": "globals/turtle_8e7c7.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "vector",
+          "file": "globals/vector_12770.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "window",
+          "file": "globals/window_363c7.md",
+          "cycle_icons": false,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "modules",
+      "file": "modules_2e5ab.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "pages": [
+        {
+          "id": "cc.audio.dfpwm",
+          "file": "modules/cc.audio.dfpwm_13f1c.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "cc.completion",
+          "file": "modules/cc.completion_3cad6.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "cc.expect",
+          "file": "modules/cc.expect_a03b3.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "cc.image.nft",
+          "file": "modules/cc.image.nft_ee70b.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "cc.pretty",
+          "file": "modules/cc.pretty_8a590.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "cc.require",
+          "file": "modules/cc.require_da5bd.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "cc.shell.completion",
+          "file": "modules/cc.shell.completion_aa529.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "cc.strings",
+          "file": "modules/cc.strings_ee5ed.md",
+          "cycle_icons": false,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "peripherals",
+      "file": "peripherals_72401.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "pages": [
+        {
+          "id": "command",
+          "file": "peripherals/command_5d391.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "computer",
+          "file": "peripherals/computer_2c8e4.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "drive",
+          "file": "peripherals/drive_99be4.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "modem",
+          "file": "peripherals/modem_64a87.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "monitor",
+          "file": "peripherals/monitor_4e8a2.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "printer",
+          "file": "peripherals/printer_ee24e.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "speaker",
+          "file": "peripherals/speaker_24f51.md",
+          "cycle_icons": false,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "generic_peripherals",
+      "file": "generic_peripherals_735c3.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "pages": [
+        {
+          "id": "energy_storage",
+          "file": "generic_peripherals/energy_storage_9b130.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "fluid_storage",
+          "file": "generic_peripherals/fluid_storage_9efb6.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "inventory",
+          "file": "generic_peripherals/inventory_1eb5f.md",
+          "cycle_icons": false,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "file": "events_f0cdb.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "pages": [
+        {
+          "id": "alarm",
+          "file": "events/alarm_3778a.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "char",
+          "file": "events/char_3572a.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "computer_command",
+          "file": "events/computer_command_2c33b.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "disk",
+          "file": "events/disk_91ffb.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "disk_eject",
+          "file": "events/disk_eject_ee22b.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "http_check",
+          "file": "events/http_check_4fd17.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "http_failure",
+          "file": "events/http_failure_68f7b.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "http_success",
+          "file": "events/http_success_dfb50.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "key",
+          "file": "events/key_e73c9.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "key_up",
+          "file": "events/key_up_57a96.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "modem_message",
+          "file": "events/modem_message_27ae8.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "monitor_resize",
+          "file": "events/monitor_resize_7d5c1.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "monitor_touch",
+          "file": "events/monitor_touch_78f0f.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "mouse_click",
+          "file": "events/mouse_click_ec3eb.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "mouse_drag",
+          "file": "events/mouse_drag_96156.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "mouse_scroll",
+          "file": "events/mouse_scroll_22e74.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "mouse_up",
+          "file": "events/mouse_up_4eacc.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "paste",
+          "file": "events/paste_edf82.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "peripheral",
+          "file": "events/peripheral_9610f.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "peripheral_detach",
+          "file": "events/peripheral_detach_810ea.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "rednet_message",
+          "file": "events/rednet_message_fa961.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "redstone",
+          "file": "events/redstone_29fa0.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "speaker_audio_empty",
+          "file": "events/speaker_audio_empty_ff5bb.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "task_complete",
+          "file": "events/task_complete_c72cd.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "term_resize",
+          "file": "events/term_resize_ef8cb.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "terminate",
+          "file": "events/terminate_db022.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "timer",
+          "file": "events/timer_917e5.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "turtle_inventory",
+          "file": "events/turtle_inventory_54330.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "websocket_closed",
+          "file": "events/websocket_closed_e8e64.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "websocket_failure",
+          "file": "events/websocket_failure_370da.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "websocket_message",
+          "file": "events/websocket_message_3e9c8.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "websocket_success",
+          "file": "events/websocket_success_f2bc2.md",
+          "cycle_icons": false,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "guides",
+      "file": "guides_833d2.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "pages": [
+        {
+          "id": "setting_up_gps",
+          "file": "guides/setting_up_gps_6a993.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "allowing_access_to_local_ips",
+          "file": "guides/allowing_access_to_local_ips_8308e.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "playing_audio_with_speakers",
+          "file": "guides/playing_audio_with_speakers_e4d35.md",
+          "cycle_icons": false,
+          "hidden": false
+        },
+        {
+          "id": "reusing_code_with_require",
+          "file": "guides/reusing_code_with_require_7d65c.md",
+          "cycle_icons": false,
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "reference",
+      "file": "reference_14bfb.md",
+      "cycle_icons": false,
+      "hidden": false,
+      "pages": [
+        {
+          "id": "lua_5.2/5.3_features_in_cc:_tweaked",
+          "file": "reference/lua_5.2/5.3_features_in_cc:_tweaked_ac561.md",
+          "cycle_icons": false,
+          "hidden": false
+        }
+      ]
+    }
+  ]
+}

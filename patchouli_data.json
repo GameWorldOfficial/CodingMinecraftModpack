@@ -1,0 +1,16 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "bigreactors:erguide": {
+      "viewedEntries": [
+        "bigreactors:intro/first"
+      ],
+      "bookmarks": [],
+      "history": [
+        "bigreactors:intro/first"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
